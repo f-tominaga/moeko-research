@@ -1,0 +1,243 @@
+%%% thesisj.sty
+%   a modification of suthesis.sty
+%   modified by Gunji Nov. 1995
+
+\oddsidemargin 0.15in \evensidemargin\oddsidemargin
+\marginparwidth 40pt \marginparsep 10pt
+\topmargin 0pt \headsep .5in
+\textheight 8.6in \textwidth 6in
+\brokenpenalty=10000
+\renewcommand{\baselinestretch}{1.3}
+
+\def\cl@chapter{\@elt{section}\@elt{footnote}}
+\def\thefigure{\@arabic\c@figure}
+\def\thetable{\@arabic\c@table}
+\def\theequation{\arabic{equation}}
+
+\def\@xfloat#1[#2]{\ifhmode \@bsphack\@floatpenalty -\@Mii\else
+   \@floatpenalty-\@Miii\fi\def\@captype{#1}\ifinner
+      \@parmoderr\@floatpenalty\z@
+    \else\@next\@currbox\@freelist{\@tempcnta\csname ftype@#1\endcsname
+       \multiply\@tempcnta\@xxxii\advance\@tempcnta\sixt@@n
+       \@tfor \@tempa :=#2\do
+                        {\if\@tempa h\advance\@tempcnta \@ne\fi
+                         \if\@tempa t\advance\@tempcnta \tw@\fi
+                         \if\@tempa b\advance\@tempcnta 4\relax\fi
+                         \if\@tempa p\advance\@tempcnta 8\relax\fi
+         }\global\count\@currbox\@tempcnta}\@fltovf\fi
+    \global\setbox\@currbox\vbox\bgroup 
+    \def\baselinestretch{1}\@normalsize
+    \boxmaxdepth\z@
+    \hsize\columnwidth \@parboxrestore}
+\long\def\@footnotetext#1{\insert\footins{\def\baselinestretch{1}\footnotesize
+    \interlinepenalty\interfootnotelinepenalty 
+    \splittopskip\footnotesep
+    \splitmaxdepth \dp\strutbox \floatingpenalty \@MM
+    \hsize\columnwidth \@parboxrestore
+   \edef\@currentlabel{\csname p@footnote\endcsname\@thefnmark}\@makefntext
+    {\rule{\z@}{\footnotesep}\ignorespaces
+      #1\strut}}}
+
+\def\course#1{\gdef\@course{#1}}
+\def\dept#1{\gdef\@dept{#1}}
+\def\degree#1{\gdef\@degree{#1}}
+\def\principaladviser#1{\gdef\@principaladviser{#1}}
+\def\advis@r{指導教員}
+\def\principaladvisor#1{\gdef\@principaladviser{#1}\gdef\advis@r{指導教員}}
+\def\firstreader#1{\gdef\@firstreader{#1}}
+\def\secondreader#1{\gdef\@secondreader{#1}}
+\def\submitdate#1{\gdef\@submitdate{#1}}
+\def\copyrightyear#1{\gdef\@copyrightyear{#1}} % \author, \title in report
+\def\@title{}\def\@author{}\def\@dept{}\def\@course{}
+\def\@principaladviser{}\def\@firstreader{}\def\@secondreader{}
+\def\@submitdate{\number\the\year\ 年 \number\the\month 月\space }
+\ifnum\month=12
+    \@tempcnta=\year \advance\@tempcnta by 1
+    \edef\@copyrightyear{\number\the\@tempcnta}
+\else
+    \def\@copyrightyear{\number\the\year}
+\fi
+
+\newif\ifcopyright \newif\ifcommittee
+\copyrightfalse \committeefalse
+
+\newif\iffigurespage \newif\iftablespage
+\figurespagefalse \tablespagefalse
+
+\newif\ifbachelorthesis \newif\ifmathesis \newif\ifphddissertation
+\bachelorthesisfalse \mathesisfalse \phddissertationfalse
+
+\def\titlep{%
+	\thispagestyle{empty}%
+	\null\vskip1in%
+	\begin{center}\huge
+		\uppercase\expandafter{\@title}
+	\end{center}
+	\vfill
+	\begin{center}\Large
+	        九州工業大学
+              \ifbachelorthesis
+                \\
+                情報工学 \@dept \\
+	        \@course コース \\
+	      \else
+                大学院 \\
+	        生命体工学研究科 \@dept 専攻\\
+              \fi
+                \@degree 論文
+	\end{center}
+	\vfill
+	\begin{center}\Large
+                \advis@r: \@principaladviser
+        \end{center}
+	\begin{center}\Large
+		\@author\\
+		\@submitdate\\
+	\end{center}\vskip.5in\newpage}
+
+\def\copyrightpage{%
+	\null\vfill
+	\thispagestyle{empty}
+	\begin{center}
+		\large\copyright\ \@copyrightyear\\
+		\@author\\
+	\end{center}
+	\vfill\newpage}
+
+%\long\def\signature#1{%
+%\begin{center}
+%\begin{minipage}{4in}
+%\parindent=0pt
+%I certify that I have read this thesis and that in my opinion
+%it is fully adequate, in scope and in quality, as a dissertation for the degree
+%of Doctor of Philosophy.
+%\par
+%\vspace{.5in}
+%\hbox to 4in{\hfil\shortstack{\vrule width 3in height 0.4pt\\#1}}
+%\end{minipage}
+%\end{center}}
+
+%\def\signaturepage{%
+%	\signature{\@principaladviser\\(Principal \advis@r)}
+%	\vfill
+%	\signature\@firstreader
+%	\vfill
+%	\signature\@secondreader
+%	\vfill
+%	\begin{center}
+%	\begin{minipage}{4in}
+%	Approved for the University Committee on Graduate Studies:\par
+%	\vspace{.5in}
+%	\hbox to 4in{\hfil\shortstack{\vrule width 3in height 0.4pt\\
+%			Dean of Graduate Studies \& Research}}
+%	\end{minipage}
+%	\end{center}}
+
+\def\committeepage{%
+	\null\vfill
+	\thispagestyle{empty}
+        \begin{center}
+        \large
+        審査委員会
+
+	\bigskip
+	\begin{tabular}{ll}
+	主査: & \@principaladviser\\[1ex]
+	副査: & \@firstreader\\[1ex]
+	副査: & \@secondreader
+	\end{tabular}
+        \end{center}
+	\vfill\newpage}
+
+\def\beforepreface{
+	\pagenumbering{roman}
+	\pagestyle{plain}
+        \ifbachelorthesis
+          \mathesisfalse \phddissertationfalse
+          \dept{工学}
+          \course{機械情報工学}
+          \degree{卒業}
+          \committeefalse
+        \else
+          \ifphddissertation
+            \mathesisfalse
+            \dept{生命体工学}
+            \degree{博士}
+          \else
+            \dept{人間知能システム工学}
+            \degree{修士}
+          \fi
+        \fi
+	\titlep
+	\ifcopyright\copyrightpage\fi
+%	\signaturepage
+        \ifcommittee\committeepage\fi
+}
+
+\def\prefacesection#1{%
+	\chapter*{#1}
+	\addcontentsline{toc}{chapter}{#1}}
+
+\def\afterpreface{\newpage
+	\tableofcontents
+	\newpage
+	\iftablespage
+		{\addvspace{1em}
+		\let\saveaddvspace=\addvspace
+		\def\addvspace##1{}
+		\listoftables
+		\let\addvspace=\saveaddvspace}
+		\newpage
+	\fi
+	\iffigurespage
+		{\addvspace{1em}
+		\let\saveaddvspace=\addvspace
+		\def\addvspace##1{}
+		\listoffigures
+		\let\addvspace=\saveaddvspace}
+		\newpage
+	\fi
+	\pagenumbering{arabic}
+	\pagestyle{headings}}
+
+% Start with pagestyle{headings} in case front matter isn't processed
+\pagestyle{headings}
+
+% from soberj.sty
+\def\@makechapterhead#1{%
+  \vspace*{2em}%
+  {\parindent \z@
+    \ifnum \c@secnumdepth >\m@ne
+    {\LARGE\bf
+     \@chapapp\thechapter\@chappos}% with platex2e
+%    \par
+%    \vskip 1em
+     \qquad
+    \fi
+    \parbox[t]{0.7\textwidth}%
+     {\raggedright\LARGE\bf #1}\par
+    \nobreak
+    \vskip 2.5em
+  }}
+\def\@makeschapterhead#1{
+ \vspace*{2em} {\parindent 0pt \raggedright
+ \LARGE\bf#1\par\nobreak\vskip2.5em}}
+\def\section{\@startsection{section}{1}{\z@}%
+  {2.5ex plus 0.5ex minus 0.1ex}%
+  {1.0ex plus 0.1ex}{\large\bf}}
+\def\subsection{\@startsection{subsection}{2}{\z@}%
+  {2.25ex plus 0.3ex minus 0.2ex}{0.5ex plus 0.05ex}{\normalsize\bf}}
+\def\subsubsection{\@startsection{subsubsection}{3}{\z@}%
+  {2.25ex plus 0.3ex minus 0.2ex}{0.5ex plus 0.05ex}{\normalsize\bf}}
+\def\paragraph{\@startsection{paragraph}{4}{\z@}%
+  {2ex plus 0.5ex minus 0.1ex}{-0.7em}{\normalsize\it}}
+\def\subparagraph{\@startsection{subparagraph}{4}{\parindent}%
+  {2ex plus 0.5ex minus 0.1ex}{-0.7em}{\normalsize\it}}
+
+%%%% compatibility with older jreport
+\renewcommand{\chapter}{%
+  \if@openright\cleardoublepage\else\clearpage\fi
+  \thispagestyle{jpl@in}%
+  \global\@topnum\z@
+  \@afterindenttrue
+  \secdef\@chapter\@schapter}
