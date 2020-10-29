@@ -1,17 +1,17 @@
 # -*- coding: utf-8 -*-
 import socket
-import som
-import server
+from musashi_som_server import som
+from musashi_som_server import server
 
 class SOM_Server(server.Server):
-    def init(self,): #@override
+    def init(self,):
         self.som = som.SOM()
         self.som.open()
-        
-    def proccess(self, connection:socket.socket, address): #@override
+
+    def proccess(self, connection:socket.socket, address):
         #proccess
         pass
-        
+
 if __name__=='__main__':
     som_server = SOM_Server()
     som_server.listen(num_client=5)
