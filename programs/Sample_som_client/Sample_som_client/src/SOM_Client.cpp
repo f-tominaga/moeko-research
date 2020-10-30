@@ -34,15 +34,19 @@ int SOM_Client::init()
 	return 0;
 }
 
-int SOM_Client::open()
+int SOM_Client::open(std::string IP, int port)
 {
 	int ret = 0;
-	ret = connect(sock, (struct sockaddr*)&addr, sizeof(struct sockaddr));
+	addr.sin_port = htons(port);
+	addr.sin_addr.S_un.S_addr = inet_addr(IP.c_str());
 
+	printf("Try to connect ... ");
+	ret = connect(sock, (struct sockaddr*)&addr, sizeof(struct sockaddr));
 	if (ret < 0) {
 		printf("Connection Error:%d\n", WSAGetLastError());
 		return -1;
 	}
+	printf("Success\n");
 
 	return 0;
 }
@@ -54,9 +58,10 @@ int SOM_Client::close()
 	return 0;
 }
 
-int SOM_Client::_send(SOM_Client_Info::Send_t data)
+int SOM_Client::get(SOM_Client_Info::Send_t s, SOM_Client_Info::Recv_t &r)
 {
-	send(sock, (const char*)&data, sizeof(SOM_Client_Info::Send_t), 0);
+	send(sock, (const char*)&s, sizeof(SOM_Client_Info::Send_t), 0);
+	recv(sock, (char*)&r, sizeof(SOM_Client_Info::Recv_t), 0);
 	return 0;
 }
 

@@ -7,7 +7,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <winsock2.h>
-
+#include <string>
 
 namespace SOM_Client_Info
 {
@@ -29,10 +29,10 @@ public:
 	~SOM_Client();
 
 	int init();
-	int open();
+	int open(std::string IP, int port);
 	int close();
 
-	int _send(SOM_Client_Info::Send_t send);
+	int get(SOM_Client_Info::Send_t s, SOM_Client_Info::Recv_t &r);
 
 private:
 	SOCKET sock;
