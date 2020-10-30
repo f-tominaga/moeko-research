@@ -1,6 +1,6 @@
 \documentclass[11pt,twoside]{jreport}
 \usepackage{thesisj}
-\usepackage{lingmacros,jtheapa}
+\usepackage{lingmacros,theapa}
 
 \title{TSOMを用いた行動戦略解析}
 \author{富永萌子}
@@ -19,8 +19,8 @@
 %%%% choose any %%%%
 \copyrighttrue
 \committeetrue
-\figurespagetrue
-\tablespagetrue
+%\figurespagetrue
+%\tablespagetrue
 %%%%%%%%%%%%%%%%
 
 \begin{document}
@@ -29,30 +29,28 @@
 
 \prefacesection{謝辞}
 \input{0_acknowledgments.tex}
-
 \afterpreface
-\chapter*{Abstruct}
-With the progress of technology, the realization of a symbiotic society with human beings and robots sharing the same environment has become an important subject. An example of this kind of systems is soccer game. Soccer is a multi-agent game that requires strategies by taking into account each member's position and actions. In this paper, we discuss the results of the development of a learning system that uses SOM to select behaviors depending on the situation.This system can reproduce the action selection algorithm of all players in a certain team, and the robot can instantly select the next cooperative action from the information obtained during the game.Because of this system, common sense rules was shared to learn an action selection algorithm for a set of agents, not only a team consisting of robots alone, but also a group of heterogeneous agents consisting of humans and robots.
-\input{1_abstract.tex}
+\input{1_abstruct.tex}
 \clearpage
-\input{2_introduction.tex}
+\input{1_introduction.tex}
 \clearpage
-\input{3_method.tex}
+\input{2_step1.tex}
 \clearpage
-\input{4_result.tex}
+\input{3_step2.tex}
+\clearpage
+\input{4_step3.tex}
 \clearpage
 \input{5_discussion.tex}
 \clearpage
-
-
 
 \bibliographystyle{jtheapa}
 \bibliography{thesis}
 
 \appendix
-\chapter{おまけ}
-おまけ
+%\chapter{おまけ}
+%おまけ
 
 \end{document}
 
 %コンパイル終わってからのターミナルで、このフォルダまで来て、pbibtex thesisj　を実行しないと参考文献が反映されない
+%うまくコンパイルできない時は、ファイルを削除してからもう一度実行
