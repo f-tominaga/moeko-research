@@ -1,7 +1,9 @@
 # -*- coding: utf-8 -*-
 import socket
-from musashi_som_server import som
-from musashi_som_server import server
+# from musashi_som_server import som
+# from musashi_som_server import server
+import som
+import server
 
 class SOM_Server(server.Server):
     def init(self,):
@@ -9,7 +11,6 @@ class SOM_Server(server.Server):
         self.som.open()
 
     def proccess(self, connection:socket.socket, address):
-        #proccess
         pass
 
 if __name__=='__main__':

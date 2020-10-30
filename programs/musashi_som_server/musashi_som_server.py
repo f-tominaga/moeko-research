@@ -1,7 +1,9 @@
 # -*- coding: utf-8 -*-
 import socket
-from musashi_som_server import som
-from musashi_som_server import server
+import som
+import server
+# from musashi_som_server import som
+# from musashi_som_server import server
 
 class SOM_Server(server.Server):
     def init(self,):
