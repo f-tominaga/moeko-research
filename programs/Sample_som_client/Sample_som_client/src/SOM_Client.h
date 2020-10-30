@@ -8,6 +8,20 @@
 #include <stdlib.h>
 #include <winsock2.h>
 
+
+namespace SOM_Client_Info
+{
+	struct Send_t {
+		float x, y;
+		float d_alpha, d_beta, d_gamma;
+		int have_ball;
+	};
+
+	struct Recv_t {
+		int action;
+	};
+}
+
 class SOM_Client
 {
 public:
@@ -18,7 +32,7 @@ public:
 	int open();
 	int close();
 
-	int send();
+	int _send(SOM_Client_Info::Send_t send);
 
 private:
 	SOCKET sock;

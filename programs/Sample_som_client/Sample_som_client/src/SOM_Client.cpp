@@ -54,7 +54,9 @@ int SOM_Client::close()
 	return 0;
 }
 
-int SOM_Client::send()
+int SOM_Client::_send(SOM_Client_Info::Send_t data)
 {
+	send(sock, (const char*)&data, sizeof(SOM_Client_Info::Send_t), 0);
 	return 0;
 }
+
