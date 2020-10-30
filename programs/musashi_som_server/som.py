@@ -43,14 +43,13 @@ class SOM:
         print('Label2:', label2)
         print('Label3:', label3)
 
-
         # Viewer's setting
-        comp = TSOM2_V.TSOM2_Viewer(y=self.model,
-                                    winner1=self.bmu1, 
-                                    winner2=self.bmu2,
-                                    label2=label2, 
-                                    button_label=label3)
-        comp.draw_map()
+        # comp = TSOM2_V.TSOM2_Viewer(y=self.model,
+        #                             winner1=self.bmu1, 
+        #                             winner2=self.bmu2,
+        #                             label2=label2, 
+        #                             button_label=label3)
+        # comp.draw_map()
 
         print(self.model.shape)
 
@@ -59,4 +58,3 @@ if __name__ == '__main__':
     print('Try to load T-SOM')
     som = SOM()
     som.open('cfg/test.json')
-    print('Finshi all tasts')
