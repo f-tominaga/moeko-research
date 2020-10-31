@@ -1,0 +1,42 @@
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1}{\ignorespaces Human-Robot Symbiosis System}}{6}% 
+\contentsline {figure}{\numberline {2}{\ignorespaces RoboCup Middle Size League 2016}}{6}% 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3}{\ignorespaces Observation of SOM algorithm}}{10}% 
+\contentsline {figure}{\numberline {4}{\ignorespaces 3D View of $\sigma _\lambda =3 $}}{13}% 
+\contentsline {figure}{\numberline {5}{\ignorespaces 2D View of $\sigma _\lambda = 3$}}{13}% 
+\contentsline {figure}{\numberline {6}{\ignorespaces 3D View of $\sigma _\lambda =2 $}}{13}% 
+\contentsline {figure}{\numberline {7}{\ignorespaces 2D View of $\sigma _\lambda = 2$}}{13}% 
+\contentsline {figure}{\numberline {8}{\ignorespaces 3D View of $\sigma _\lambda =1 $}}{13}% 
+\contentsline {figure}{\numberline {9}{\ignorespaces 2D View of $\sigma _\lambda = 1$}}{13}% 
+\contentsline {figure}{\numberline {10}{\ignorespaces Time variation of standard deviation}}{14}% 
+\contentsline {figure}{\numberline {11}{\ignorespaces Observation target game A}}{16}% 
+\contentsline {figure}{\numberline {12}{\ignorespaces Observation target game B}}{16}% 
+\contentsline {figure}{\numberline {13}{\ignorespaces Observation target game C}}{16}% 
+\contentsline {figure}{\numberline {14}{\ignorespaces The Observation Environment of the Game}}{18}% 
+\contentsline {figure}{\numberline {15}{\ignorespaces Defining the position by the relative distance within the team relative to the ball}}{21}% 
+\contentsline {figure}{\numberline {16}{\ignorespaces The feature map expressed by the gradation display (Observation target game A)}}{22}% 
+\contentsline {figure}{\numberline {17}{\ignorespaces Role sharing by the relative distance between the player and the ball among the players in the team (Observation target game A)}}{22}% 
+\contentsline {figure}{\numberline {18}{\ignorespaces The feature map expressed by the gradation display (Observation target game B).eps}}{23}% 
+\contentsline {figure}{\numberline {19}{\ignorespaces Role sharing by the relative distance between the player and the ball among the players in the team (Observation target game B)}}{23}% 
+\contentsline {figure}{\numberline {20}{\ignorespaces The feature map expressed by the gradation display (Observation target game B)}}{26}% 
+\contentsline {figure}{\numberline {21}{\ignorespaces The area of the rectangle constituted with the player of the defense team as the apex (Observation target game B)}}{26}% 
+\contentsline {figure}{\numberline {22}{\ignorespaces The area of the rectangle constituted with the player of the offense team as the apex (Observation target game B)}}{27}% 
+\contentsline {figure}{\numberline {23}{\ignorespaces Distance of the ball against the goal attacked by the offense team(Observation target game B)}}{27}% 
+\contentsline {figure}{\numberline {24}{\ignorespaces TRY01　red　to　red}}{30}% 
+\contentsline {figure}{\numberline {25}{\ignorespaces TRY02　red　to　red}}{30}% 
+\contentsline {figure}{\numberline {26}{\ignorespaces TRY03　blue　to　blue}}{31}% 
+\contentsline {figure}{\numberline {27}{\ignorespaces TRY04　red　to　blue}}{31}% 
+\contentsline {figure}{\numberline {28}{\ignorespaces TRY05　red　to　red}}{32}% 
+\contentsline {figure}{\numberline {29}{\ignorespaces TRY06　blue　to　blue}}{32}% 
+\contentsline {figure}{\numberline {30}{\ignorespaces TRY07　red　to　red}}{33}% 
+\contentsline {figure}{\numberline {31}{\ignorespaces TRY08　blue　to　blue}}{33}% 
+\contentsline {figure}{\numberline {32}{\ignorespaces TRY09　blue　to　blue}}{34}% 
+\contentsline {figure}{\numberline {33}{\ignorespaces TRY08　red　to　blue}}{34}% 
+\contentsline {figure}{\numberline {34}{\ignorespaces The feature map expressed by the gradation display (Observation target game B)}}{35}% 
+\contentsline {figure}{\numberline {35}{\ignorespaces A color-coded figure with the team try finally chosen a shot(Black : Euclidean distance $\geq $ 0.6)}}{35}% 
+\contentsline {figure}{\numberline {36}{\ignorespaces The feature map expressed by the gradation display (Observation target game C)}}{36}% 
+\contentsline {figure}{\numberline {37}{\ignorespaces A color-coded figure with the team try (Black : Euclidean distance $\geq $ 0.6)}}{36}% 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }

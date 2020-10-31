@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2019.3.4)  30 OCT 2020 17:04
+This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2019.3.4)  31 OCT 2020 23:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -60,47 +60,71 @@ APA Citation (& Optional APA Heading) Style - Version 2.5.1 (5/92)
 \UL@lht=\dimen123
 \UL@ldp=\dimen124
 \UL@pixel=\dimen125
-) (./thesis_moeko.aux)
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: dvipdfmx.def on input line 99.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
+File: dvipdfmx.def 2017/06/24 v5.0g Graphics/color driver for dvipdfmx
+))
+\Gin@req@height=\dimen126
+\Gin@req@width=\dimen127
+)
+(./thesis_moeko.aux)
 \openout1 = `thesis_moeko.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
  [1
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 28.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 29.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 28.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 29.
  [2]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 28.
+(Font)              <12> on input line 29.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 28.
+(Font)              <8> on input line 29.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 28.
+(Font)              <6> on input line 29.
  [3]
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <17.28> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 30.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 31.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <17.28> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 30.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 31.
 
 (./0_acknowledgments.tex) [4
 
@@ -111,14 +135,25 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10.95> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 1.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 3.
-)
+ [5
+
+])
 \tf@toc=\write3
 \openout3 = `thesis_moeko.toc'.
 
- [5
+ [6] (./thesis_moeko.lot)
+\tf@lot=\write4
+\openout4 = `thesis_moeko.lot'.
 
-] (./1_abstruct.tex)
-[1
+[7
+
+] (./thesis_moeko.lof [8
+
+])
+\tf@lof=\write5
+\openout5 = `thesis_moeko.lof'.
+
+ [9] (./1_abstruct.tex) [1
 
 ] (./1_introduction.tex
 第 1 章
@@ -144,64 +179,199 @@ Overfull \hbox (8.90271pt too wide) in paragraph at lines 5--19
 [2
 
 
-]
-
-LaTeX Warning: Citation `PS' on page 3 undefined on input line 20.
-
-
-LaTeX Warning: Citation `KU' on page 3 undefined on input line 20.
-
-
-LaTeX Warning: Citation `BS' on page 3 undefined on input line 21.
-
-
-LaTeX Warning: Citation `TWS' on page 3 undefined on input line 22.
-
-
-LaTeX Warning: Citation `SA' on page 3 undefined on input line 22.
-
-
-LaTeX Warning: Citation `YT' on page 3 undefined on input line 24.
-
-[3]
+] [3] [4] [5]
+File: figure/01_01_Human-Robot_Symbiosis_System.eps Graphic file (type eps)
+<figure/01_01_Human-Robot_Symbiosis_System.eps>
+File: figure/01_02_RoboCup_Middle_Size_League_2016.eps Graphic file (type eps)
+<figure/01_02_RoboCup_Middle_Size_League_2016.eps>
+ [6]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 31.
+(Font)              <9> on input line 77.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 31.
+(Font)              <5> on input line 77.
+) [7
 
 
-LaTeX Warning: Citation `MM' on page 4 undefined on input line 33.
-
-[4] [5]) [6] (./2_step1.tex
+] (./2_step1.tex
 第 2 章
-[7
+[8
 
 
-] [8]) [9] (./3_step2.tex
+] [9]
+File: figure/02_01_Overview_of_SOM_algorithm.eps Graphic file (type eps)
+<figure/02_01_Overview_of_SOM_algorithm.eps>
+ [10
+
+] [11
+
+]
+File: Figure/Sigma_3_3D.eps Graphic file (type eps)
+<Figure/Sigma_3_3D.eps>
+File: Figure/Sigma_3_2D.eps Graphic file (type eps)
+<Figure/Sigma_3_2D.eps>
+File: Figure/Sigma_2_3D.eps Graphic file (type eps)
+<Figure/Sigma_2_3D.eps>
+File: Figure/Sigma_2_2D.eps Graphic file (type eps)
+<Figure/Sigma_2_2D.eps>
+File: Figure/Sigma_1_3D.eps Graphic file (type eps)
+<Figure/Sigma_1_3D.eps>
+File: Figure/Sigma_1_2D.eps Graphic file (type eps)
+<Figure/Sigma_1_2D.eps>
+ [12] [13]
+File: figure/Time_variation_of_standard_deviation.eps Graphic file (type eps)
+<figure/Time_variation_of_standard_deviation.eps>
+ [14
+
+] [15
+
+]
+File: figure/Observation_target_game_A.eps Graphic file (type eps)
+<figure/Observation_target_game_A.eps>
+File: figure/Observation_target_game_B.eps Graphic file (type eps)
+<figure/Observation_target_game_B.eps>
+File: figure/Observation_target_game_C.eps Graphic file (type eps)
+<figure/Observation_target_game_C.eps>
+
+
+LaTeX Warning: Float too large for page by 20.59097pt on input line 177.
+
+[16]
+
+LaTeX Warning: Reference `fig:Settiong' on page 17 undefined on input line 183.
+
+
+[17
+
+
+]
+File: figure/The_Observation_Environment_of_the_Game.eps Graphic file (type eps
+)
+<figure/The_Observation_Environment_of_the_Game.eps>
+ [18
+
+] [19
+
+] [20]
+File: figure/Defining_the_position_by_the_relative_distance_within_the_team_rel
+ative_to_the_ball.eps Graphic file (type eps)
+<figure/Defining_the_position_by_the_relative_distance_within_the_team_relative
+_to_the_ball.eps>
+File: figure/The_feature_map_expressed_by_the_gradation_display_Observation_tar
+get_game_A.eps Graphic file (type eps)
+<figure/The_feature_map_expressed_by_the_gradation_display_Observation_target_g
+ame_A.eps>
+File: figure/Role_sharing_by_the_relative_distance_between_the_player_and_the_b
+all_among_the_players_in_the_team_Observation_target_game_A.eps Graphic file (t
+ype eps)
+<figure/Role_sharing_by_the_relative_distance_between_the_player_and_the_ball_a
+mong_the_players_in_the_team_Observation_target_game_A.eps>
+File: figure/The_feature_map_expressed_by_the_gradation_display_Observation_tar
+get_game_B.eps Graphic file (type eps)
+<figure/The_feature_map_expressed_by_the_gradation_display_Observation_target_g
+ame_B.eps>
+File: figure/Role_sharing_by_the_relative_distance_between_the_player_and_the_b
+all_among_the_players_in_the_team_Observation_target_game_B.eps Graphic file (t
+ype eps)
+<figure/Role_sharing_by_the_relative_distance_between_the_player_and_the_ball_a
+mong_the_players_in_the_team_Observation_target_game_B.eps>
+ [21
+
+] [22] [23] [24
+
+] [25]
+File: figure/The_feature_map_expressed_by_the_gradation_display_Observation_tar
+get_game_B_2.eps Graphic file (type eps)
+<figure/The_feature_map_expressed_by_the_gradation_display_Observation_target_g
+ame_B_2.eps>
+File: figure/The_area_of_the_rectangle_constituted_with_the_player_of_the_defen
+se_team_as_the_apex_Observation_target_game_B.eps Graphic file (type eps)
+<figure/The_area_of_the_rectangle_constituted_with_the_player_of_the_defense_te
+am_as_the_apex_Observation_target_game_B.eps>
+File: figure/The_area_of_the_rectangle_constituted_with_the_player_of_the_offen
+se_team_as_the_apex_Observation_target_game_B.eps Graphic file (type eps)
+<figure/The_area_of_the_rectangle_constituted_with_the_player_of_the_offense_te
+am_as_the_apex_Observation_target_game_B.eps>
+File: figure/Distance_of_the_ball_against_the_goal_attacked_by_the_offense_team
+_Observation_target_game_B.eps Graphic file (type eps)
+<figure/Distance_of_the_ball_against_the_goal_attacked_by_the_offense_team_Obse
+rvation_target_game_B.eps>
+ [26
+
+] [27] [28
+
+] [29]
+File: figure/TRY01_red_to_red.eps Graphic file (type eps)
+<figure/TRY01_red_to_red.eps>
+File: figure/TRY02_red_to_red.eps Graphic file (type eps)
+<figure/TRY02_red_to_red.eps>
+File: figure/TRY03_blue_to_blue.eps Graphic file (type eps)
+<figure/TRY03_blue_to_blue.eps>
+File: figure/TRY04_red_to_blue.eps Graphic file (type eps)
+<figure/TRY04_red_to_blue.eps>
+File: figure/TRY05_red_to_red.eps Graphic file (type eps)
+<figure/TRY05_red_to_red.eps>
+File: figure/TRY06_blue_to_blue.eps Graphic file (type eps)
+<figure/TRY06_blue_to_blue.eps>
+File: figure/TRY07_red_to_red.eps Graphic file (type eps)
+<figure/TRY07_red_to_red.eps>
+File: figure/TRY08_blue_to_blue.eps Graphic file (type eps)
+<figure/TRY08_blue_to_blue.eps>
+File: figure/TRY09_blue_to_blue.eps Graphic file (type eps)
+<figure/TRY09_blue_to_blue.eps>
+File: figure/TRY10_red_to_blue.eps Graphic file (type eps)
+<figure/TRY10_red_to_blue.eps>
+File: figure/The_feature_map_expressed_by_the_gradation_display_Observation_tar
+get_game_B.eps Graphic file (type eps)
+<figure/The_feature_map_expressed_by_the_gradation_display_Observation_target_g
+ame_B.eps>
+File: figure/A_color-coded_figure_with_the_team_try_finally_chosen_shot_Black_E
+uclidean_distance_more_than_0.6.eps Graphic file (type eps)
+<figure/A_color-coded_figure_with_the_team_try_finally_chosen_shot_Black_Euclid
+ean_distance_more_than_0.6.eps>
+
+
+LaTeX Warning: Float too large for page by 45.80482pt on input line 507.
+
+File: figure/The_feature_map_expressed_by_the_gradation_display_Observation_tar
+get_game_C.eps Graphic file (type eps)
+<figure/The_feature_map_expressed_by_the_gradation_display_Observation_target_g
+ame_C.eps>
+File: figure/A_color-coded_figure_with_the_team_try_Black_Euclidean_distance_0.
+6.eps Graphic file (type eps)
+<figure/A_color-coded_figure_with_the_team_try_Black_Euclidean_distance_0.6.eps
+>
+[30] [31] [32] [33] [34] [35] [36]) [37
+
+
+] (./3_step2.tex
 第 3 章
-) [10
+) [38
 
 
 ] (./4_step3.tex
 第 4 章
-) [11
+) [39
 
 
 ] (./5_discussion.tex
 第 5 章
-) [12
+) [40
 
 
 ]
 No file thesis_moeko.bbl.
-(./thesis_moeko.aux) ) 
+(./thesis_moeko.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 645 strings out of 493226
- 6884 string characters out of 6144096
- 77497 words of memory out of 5000000
- 4657 multiletter control sequences out of 15000+600000
+ 1170 strings out of 493226
+ 18744 string characters out of 6144096
+ 85106 words of memory out of 5000000
+ 5117 multiletter control sequences out of 15000+600000
  18060 words of font info for 70 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 25i,8n,21p,1124b,212s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 25i,11n,21p,1111b,398s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis_moeko.dvi (17 pages, 39232 bytes).
+Output written on thesis_moeko.dvi (49 pages, 90708 bytes).
