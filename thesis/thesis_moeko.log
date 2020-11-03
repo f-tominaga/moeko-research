@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2019.3.4)  31 OCT 2020 23:52
+This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2019.3.4)  3 NOV 2020 03:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -37,30 +37,8 @@ LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
 \c@tempcnt=\count95
 \c@enumsi=\count96
 \eeindent=\dimen122
-) (./theapa.sty
-APA Citation (& Optional APA Heading) Style - Version 2.5.1 (5/92)
-\bibleftmargin=\skip43
-\b@level@one@skip=\skip44
-\e@level@one@skip=\skip45
-\b@level@two@skip=\skip46
-\e@level@two@skip=\skip47
-\b@level@three@skip=\skip48
-\e@level@three@skip=\skip49
-\b@level@four@skip=\skip50
-\e@level@four@skip=\skip51
-\b@level@five@skip=\skip52
-\e@level@five@skip=\skip53
-\c@APAenum=\count97
-\@text@par@indent=\skip54
-\UL@hyphenbox=\box43
-\UL@box=\box44
-\UL@spfactor=\count98
-\UL@penalty=\count99
-\UL@skip=\skip55
-\UL@lht=\dimen123
-\UL@ldp=\dimen124
-\UL@pixel=\dimen125
-) (/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
@@ -81,50 +59,50 @@ Package graphics Info: Driver file: dvipdfmx.def on input line 99.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
 File: dvipdfmx.def 2017/06/24 v5.0g Graphics/color driver for dvipdfmx
 ))
-\Gin@req@height=\dimen126
-\Gin@req@width=\dimen127
+\Gin@req@height=\dimen123
+\Gin@req@width=\dimen124
 )
 (./thesis_moeko.aux)
 \openout1 = `thesis_moeko.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
  [1
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 29.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 32.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 29.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 32.
  [2]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 29.
+(Font)              <12> on input line 32.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 29.
+(Font)              <8> on input line 32.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 29.
+(Font)              <6> on input line 32.
  [3]
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <17.28> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 31.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 34.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <17.28> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 31.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 34.
 
 (./0_acknowledgments.tex) [4
 
@@ -156,53 +134,105 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [9] (./1_abstruct.tex) [1
 
 ] (./1_introduction.tex
-第 1 章
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 3.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 3.
-
-Overfull \hbox (8.90271pt too wide) in paragraph at lines 5--19
-[][]$[]$[] 
- []
-
-
-Overfull \hbox (3.34108pt too wide) in paragraph at lines 5--19
-[][]$[]$[] 
- []
-
-
-Overfull \hbox (8.90271pt too wide) in paragraph at lines 5--19
-[][]$[]$[] 
- []
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <24.88> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <24.88> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 1.
 
 [2
 
 
-] [3] [4] [5]
+]
+第 1 章
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 8.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 8.
+
+Overfull \hbox (8.90271pt too wide) in paragraph at lines 10--24
+[][]$[]$[] 
+ []
+
+
+Overfull \hbox (3.34108pt too wide) in paragraph at lines 10--24
+[][]$[]$[] 
+ []
+
+
+Overfull \hbox (8.90271pt too wide) in paragraph at lines 10--24
+[][]$[]$[] 
+ []
+
+[3
+
+]
+
+LaTeX Warning: Citation `RoboCup' on page 4 undefined on input line 26.
+
+
+LaTeX Warning: Citation `Sandholm1995OnMQ' on page 4 undefined on input line 27
+.
+
+
+LaTeX Warning: Citation `Arai' on page 4 undefined on input line 27.
+
+
+LaTeX Warning: Citation `Grefenstette' on page 4 undefined on input line 27.
+
+
+LaTeX Warning: Citation `Asada2000' on page 4 undefined on input line 30.
+
+[4] [5] [6] [7]
 File: figure/01_01_Human-Robot_Symbiosis_System.eps Graphic file (type eps)
 <figure/01_01_Human-Robot_Symbiosis_System.eps>
 File: figure/01_02_RoboCup_Middle_Size_League_2016.eps Graphic file (type eps)
 <figure/01_02_RoboCup_Middle_Size_League_2016.eps>
- [6]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 77.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 77.
-) [7
+ [8] [9
 
 
-] (./2_step1.tex
+
+] [10
+
+]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 97.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 97.
+) [11
+
+] (./2_step1.tex [12
+
+
+]
 第 2 章
-[8
+[13
+
+] [14
+
+]
+
+LaTeX Warning: Citation `von_der_Malsburg' on page 15 undefined on input line 2
+5.
 
 
-] [9]
+LaTeX Warning: Citation `WILLSHAW' on page 15 undefined on input line 25.
+
+
+LaTeX Warning: Citation `The_Eye_and_the_Brain' on page 15 undefined on input l
+ine 26.
+
+[15
+
+] [16]
 File: figure/02_01_Overview_of_SOM_algorithm.eps Graphic file (type eps)
 <figure/02_01_Overview_of_SOM_algorithm.eps>
- [10
+ [17
 
-] [11
+]
+
+LaTeX Warning: Citation `Kohonen' on page 18 undefined on input line 47.
+
+[18
 
 ]
 File: Figure/Sigma_3_3D.eps Graphic file (type eps)
@@ -217,12 +247,12 @@ File: Figure/Sigma_1_3D.eps Graphic file (type eps)
 <Figure/Sigma_1_3D.eps>
 File: Figure/Sigma_1_2D.eps Graphic file (type eps)
 <Figure/Sigma_1_2D.eps>
- [12] [13]
+ [19] [20]
 File: figure/Time_variation_of_standard_deviation.eps Graphic file (type eps)
 <figure/Time_variation_of_standard_deviation.eps>
- [14
+ [21
 
-] [15
+] [22
 
 ]
 File: figure/Observation_target_game_A.eps Graphic file (type eps)
@@ -233,25 +263,25 @@ File: figure/Observation_target_game_C.eps Graphic file (type eps)
 <figure/Observation_target_game_C.eps>
 
 
-LaTeX Warning: Float too large for page by 20.59097pt on input line 177.
+LaTeX Warning: Float too large for page by 20.59097pt on input line 197.
 
-[16]
+[23]
 
-LaTeX Warning: Reference `fig:Settiong' on page 17 undefined on input line 183.
+LaTeX Warning: Reference `fig:Settiong' on page 24 undefined on input line 203.
 
 
-[17
+[24
 
 
 ]
 File: figure/The_Observation_Environment_of_the_Game.eps Graphic file (type eps
 )
 <figure/The_Observation_Environment_of_the_Game.eps>
- [18
+ [25
 
-] [19
+] [26
 
-] [20]
+] [27]
 File: figure/Defining_the_position_by_the_relative_distance_within_the_team_rel
 ative_to_the_ball.eps Graphic file (type eps)
 <figure/Defining_the_position_by_the_relative_distance_within_the_team_relative
@@ -274,11 +304,11 @@ all_among_the_players_in_the_team_Observation_target_game_B.eps Graphic file (t
 ype eps)
 <figure/Role_sharing_by_the_relative_distance_between_the_player_and_the_ball_a
 mong_the_players_in_the_team_Observation_target_game_B.eps>
- [21
+ [28
 
-] [22] [23] [24
+] [29] [30] [31
 
-] [25]
+] [32]
 File: figure/The_feature_map_expressed_by_the_gradation_display_Observation_tar
 get_game_B_2.eps Graphic file (type eps)
 <figure/The_feature_map_expressed_by_the_gradation_display_Observation_target_g
@@ -295,11 +325,11 @@ File: figure/Distance_of_the_ball_against_the_goal_attacked_by_the_offense_team
 _Observation_target_game_B.eps Graphic file (type eps)
 <figure/Distance_of_the_ball_against_the_goal_attacked_by_the_offense_team_Obse
 rvation_target_game_B.eps>
- [26
+ [33
 
-] [27] [28
+] [34] [35
 
-] [29]
+] [36]
 File: figure/TRY01_red_to_red.eps Graphic file (type eps)
 <figure/TRY01_red_to_red.eps>
 File: figure/TRY02_red_to_red.eps Graphic file (type eps)
@@ -330,7 +360,7 @@ uclidean_distance_more_than_0.6.eps Graphic file (type eps)
 ean_distance_more_than_0.6.eps>
 
 
-LaTeX Warning: Float too large for page by 45.80482pt on input line 507.
+LaTeX Warning: Float too large for page by 45.80482pt on input line 527.
 
 File: figure/The_feature_map_expressed_by_the_gradation_display_Observation_tar
 get_game_C.eps Graphic file (type eps)
@@ -340,23 +370,46 @@ File: figure/A_color-coded_figure_with_the_team_try_Black_Euclidean_distance_0.
 6.eps Graphic file (type eps)
 <figure/A_color-coded_figure_with_the_team_try_Black_Euclidean_distance_0.6.eps
 >
-[30] [31] [32] [33] [34] [35] [36]) [37
+[37] [38] [39] [40] [41] [42] [43]) [44
 
 
-] (./3_step2.tex
+] (./3_step2.tex [45
+
+
+]
 第 3 章
-) [38
+[46
+
+]
+
+LaTeX Warning: Citation `TSOM' on page 47 undefined on input line 15.
+
+File: figure/tensor_shape2.eps Graphic file (type eps)
+<figure/tensor_shape2.eps>
+[47
+
+]
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 51.
+ [48] [49
+
+] [50
+
+]) [51
+
+] (./4_step3.tex [52
 
 
-] (./4_step3.tex
+]
 第 4 章
-) [39
+) [53
+
+] (./5_discussion.tex [54
 
 
-] (./5_discussion.tex
+]
 第 5 章
-) [40
-
+) [55
 
 ]
 No file thesis_moeko.bbl.
@@ -366,12 +419,12 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 1170 strings out of 493226
- 18744 string characters out of 6144096
- 85106 words of memory out of 5000000
- 5117 multiletter control sequences out of 15000+600000
- 18060 words of font info for 70 fonts, out of 8000000 for 9000
+ 1061 strings out of 493226
+ 17837 string characters out of 6144096
+ 81534 words of memory out of 5000000
+ 5010 multiletter control sequences out of 15000+600000
+ 19592 words of font info for 76 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 25i,11n,21p,1111b,398s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 25i,11n,21p,1147b,398s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis_moeko.dvi (49 pages, 90708 bytes).
+Output written on thesis_moeko.dvi (64 pages, 105596 bytes).

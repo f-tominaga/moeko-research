@@ -1,11 +1,15 @@
 \documentclass[11pt,twoside]{jreport}
 \usepackage{thesisj}
-\usepackage{lingmacros,theapa}
+%\usepackage{lingmacros, jtheapa}
+\usepackage{lingmacros,}
 \usepackage[dvipdfmx]{graphicx}
 
-\title{TSOMを用いた行動戦略解析}
+\newcommand{\argmax}{\mathop{\rm arg~max}\limits}
+\newcommand{\argmin}{\mathop{\rm arg~min}\limits}
+
+\title{ロボカップサッカーを題材とした\\人間ーロボット協調システムに関する研究}
 \author{富永萌子}
-\submitdate{2021年3月31日}
+\submitdate{2021年3月}
 \copyrightyear{2020}
 
 \principaladvisor{石井和男}
@@ -23,9 +27,8 @@
 \figurespagetrue
 \tablespagetrue
 %%%%%%%%%%%%%%%%
-
+ 
 \begin{document}
-
 \beforepreface
 
 \prefacesection{謝辞}
@@ -44,8 +47,10 @@
 \input{5_discussion.tex}
 \clearpage
 
-\bibliographystyle{jtheapa}
+%\bibliographystyle{jtheapa}
+\bibliographystyle{junsrt}
 \bibliography{thesis}
+
 
 \appendix
 %\chapter{おまけ}

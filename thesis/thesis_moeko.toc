@@ -1,36 +1,47 @@
 \contentsline {chapter}{謝辞}{iv}% 
-\contentsline {chapter}{\numberline {第1章}序論}{2}% 
-\contentsline {section}{\numberline {1.1}はじめに}{2}% 
-\contentsline {subsection}{\numberline {1.1.1}ロボットの社会実装}{2}% 
-\contentsline {subsection}{\numberline {1.1.2}協調行動}{3}% 
-\contentsline {subsection}{\numberline {1.1.3}ロボット学習}{3}% 
-\contentsline {subsection}{\numberline {1.1.4}人間ロボット協調}{4}% 
-\contentsline {subsection}{\numberline {1.1.5}ロボカップ}{5}% 
-\contentsline {subsubsection}{ロボカップサッカー中型ロボットリーグ(MSL)}{5}% 
-\contentsline {subsubsection}{試合データ}{5}% 
-\contentsline {section}{\numberline {1.2}本研究の目的}{7}% 
-\contentsline {section}{\numberline {1.3}本論文の構成}{7}% 
-\contentsline {chapter}{\numberline {第2章}人間のチーム行動解析}{8}% 
-\contentsline {section}{\numberline {2.1}自己組織化マップ（SOM）}{8}% 
-\contentsline {subsection}{\numberline {2.1.1}競合学習}{9}% 
-\contentsline {subsection}{\numberline {2.1.2}アルゴリズム}{11}% 
-\contentsline {subsubsection}{競合段階}{11}% 
-\contentsline {subsubsection}{協調段階}{11}% 
-\contentsline {section}{\numberline {2.2}解析実験}{15}% 
-\contentsline {subsection}{\numberline {2.2.1}観察対象試合}{15}% 
-\contentsline {subsection}{\numberline {2.2.2}状況分析における観察要素の設定}{17}% 
-\contentsline {subsection}{\numberline {2.2.3}チーム行動の有無による変化}{19}% 
-\contentsline {subsubsection}{実験方法}{19}% 
-\contentsline {subsubsection}{実験結果}{19}% 
-\contentsline {subsubsection}{考察}{19}% 
-\contentsline {subsection}{\numberline {2.2.4}チーム内での仲間との位置関係}{24}% 
-\contentsline {subsubsection}{実験方法}{24}% 
-\contentsline {subsubsection}{考察}{24}% 
-\contentsline {subsection}{\numberline {2.2.5}人間同士によるフットサル試合とロボット同士によるサッカー試合の比較解析}{28}% 
-\contentsline {subsubsection}{学習パラメータ}{28}% 
-\contentsline {subsubsection}{実験結果}{28}% 
-\contentsline {subsubsection}{考察}{29}% 
-\contentsline {subsection}{\numberline {2.2.6}結論}{37}% 
-\contentsline {chapter}{\numberline {第3章}人間と同じ行動決定の創発}{38}% 
-\contentsline {chapter}{\numberline {第4章}ロボットへの実装実験}{39}% 
-\contentsline {chapter}{\numberline {第5章}考察及びまとめ}{40}% 
+\contentsline {chapter}{\numberline {第1章}序論}{3}% 
+\contentsline {section}{\numberline {1.1}緒言}{3}% 
+\contentsline {subsection}{\numberline {1.1.1}ロボットの社会実装}{3}% 
+\contentsline {subsection}{\numberline {1.1.2}協調行動}{4}% 
+\contentsline {subsection}{\numberline {1.1.3}ロボット学習}{4}% 
+\contentsline {subsection}{\numberline {1.1.4}人間ロボット協調}{5}% 
+\contentsline {subsection}{\numberline {1.1.5}ロボカップ}{6}% 
+\contentsline {subsubsection}{ロボカップサッカー中型ロボットリーグ(MSL)}{6}% 
+\contentsline {subsubsection}{試合データ}{6}% 
+\contentsline {section}{\numberline {1.2}本研究の目的}{9}% 
+\contentsline {section}{\numberline {1.3}本論文の構成}{10}% 
+\contentsline {section}{\numberline {1.4}変数，記号の約束}{11}% 
+\contentsline {chapter}{\numberline {第2章}人間のチーム行動解析}{13}% 
+\contentsline {section}{\numberline {2.1}緒言}{13}% 
+\contentsline {section}{\numberline {2.2}階層型ニューラルネットワーク(MLP)}{14}% 
+\contentsline {section}{\numberline {2.3}自己組織化マップ（SOM）}{15}% 
+\contentsline {subsection}{\numberline {2.3.1}競合学習}{15}% 
+\contentsline {subsection}{\numberline {2.3.2}アルゴリズム}{18}% 
+\contentsline {subsubsection}{競合段階}{18}% 
+\contentsline {subsubsection}{協調段階}{18}% 
+\contentsline {section}{\numberline {2.4}解析実験}{22}% 
+\contentsline {subsection}{\numberline {2.4.1}観察対象試合}{22}% 
+\contentsline {subsection}{\numberline {2.4.2}状況分析における観察要素の設定}{24}% 
+\contentsline {subsection}{\numberline {2.4.3}チーム行動の有無による変化}{26}% 
+\contentsline {subsubsection}{実験方法}{26}% 
+\contentsline {subsubsection}{実験結果}{26}% 
+\contentsline {subsubsection}{考察}{26}% 
+\contentsline {subsection}{\numberline {2.4.4}チーム内での仲間との位置関係}{31}% 
+\contentsline {subsubsection}{実験方法}{31}% 
+\contentsline {subsubsection}{考察}{31}% 
+\contentsline {subsection}{\numberline {2.4.5}人間同士によるフットサル試合とロボット同士によるサッカー試合の比較解析}{35}% 
+\contentsline {subsubsection}{学習パラメータ}{35}% 
+\contentsline {subsubsection}{実験結果}{35}% 
+\contentsline {subsubsection}{考察}{36}% 
+\contentsline {subsection}{\numberline {2.4.6}結論}{44}% 
+\contentsline {chapter}{\numberline {第3章}自己組織的チーム行動獲得システム}{46}% 
+\contentsline {section}{\numberline {3.1}緒言}{46}% 
+\contentsline {section}{\numberline {3.2}テンソル自己組織化マップ(TSOM)}{47}% 
+\contentsline {section}{\numberline {3.3}TSOMを用いた学習方法検証}{49}% 
+\contentsline {section}{\numberline {3.4}TSOMを用いた環境認識と行動決定}{50}% 
+\contentsline {section}{\numberline {3.5}人間と同じ行動判断アルゴリズムの創発}{51}% 
+\contentsline {chapter}{\numberline {第4章}ロボットへの実装実験}{53}% 
+\contentsline {section}{\numberline {4.1}緒言}{53}% 
+\contentsline {chapter}{\numberline {第5章}考察及び結論}{55}% 
+\contentsline {section}{\numberline {5.1}緒言}{55}% 
+\contentsline {section}{\numberline {5.2}今後の展望}{55}% 
