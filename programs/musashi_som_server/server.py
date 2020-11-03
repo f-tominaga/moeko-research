@@ -7,27 +7,27 @@ import struct
 
 class Server:
     def __init__(self,):
-        print('create multi client server')
-        host = '172.16.44.101'
-        port= 7000
-        self.info = (host,port)
-        print('server info:{}'.format(self.info))
+        # host = '172.16.44.101'
+        self.host = 'localhost'
+        self.port= 7000
+        self.init()
+        self.info = (self.host, self.port)
+
+        print('Server(ip,port) : {}'.format(self.info))
+
         self.sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         self.clients = [] #client array
-        self.threads = [] #thread array
-        
-        self.init()
-        
+        self.threads = [] #thread array        
+
     def init(self,): #for override
         pass
         
     def listen(self,num_client:int):
-        print('socket bind')
         self.sock.bind(self.info)
         self.sock.setsockopt(socket.SOL_SOCKET,
                               socket.SO_REUSEADDR,
                               1)
-        print('allow client {}'.format(num_client))
+        print('Allow client:', num_client)
         self.sock.listen(num_client)
         self.sock.settimeout(1)
         

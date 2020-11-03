@@ -8,7 +8,10 @@ import struct
 
 class SOM_Server(server.Server):
     def init(self,):
-        print('SOM_Server init')
+        print('SOM Server init')
+        self.host = 'localhost'
+        self.port= 7000
+        
         self.som = som.SOM()
         self.som.open('cfg/test.json')
 
@@ -18,8 +21,17 @@ class SOM_Server(server.Server):
             try:
                 sim_data = connection.recv(40) #recieve
                 sim_data = struct.unpack('fffffiiiii', sim_data) #バイナリファイルをunpack
-                print(sim_data)
+               
+
+                #SOMによるBUM探索                
                 function = self.som.ploof(sim_data)
+                
+                print('player({}) recv: {} -> {}', 
+                      sim_data[9],
+                      sim_data,
+                      int(function))
+               
+                #pack and send
                 function = struct.pack('i', int(function))
                 connection.send(function)
 

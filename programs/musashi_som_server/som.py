@@ -19,7 +19,7 @@ class SOM:
         # Load config file
         json_file = open(cfg_file)
         json_data = json.load(json_file)
-        print('Config:{}'.format(json_data))
+        # print('Config:{}'.format(json_data))
         mode1_model_file = os.path.abspath(json_data['mode1_model'])
         mode2_model_file = os.path.abspath(json_data['mode2_model'])
         som_model_file = os.path.abspath(json_data['som_model'])
@@ -35,24 +35,27 @@ class SOM:
         self.model = self.model.reshape((100, 100, 3))
         self.bmu1 = np.int64(np.round(self.bmu1))
         self.bmu2 = np.int64(np.round(self.bmu2))
-        print('bmu1:', self.bmu1)
-        print('bmu2:', self.bmu2)
-
+        
         label1 = np.genfromtxt(label_path1, dtype=str)
         label2 = np.genfromtxt(label_path2, dtype=str)
         label3 = np.genfromtxt(label_path3, dtype=str)
+        
+        print('--- T-SOM parameters ----------')
+        print('model shape:', self.model.shape)
+        print('bmu1:', self.bmu1)
+        print('bmu2:', self.bmu2)
         print('Label1:', label1)
         print('Label2:', label2)
         print('Label3:', label3)
+        print('-------------------------------')
 
         # Viewer's setting
-        comp = TSOM2_V.TSOM2_Viewer(y=self.model,
-                                    winner1=self.bmu1,
-                                    winner2=self.bmu2,
-                                    label2=label2,
-                                    button_label=label3)
-        comp.draw_map()
-        print(self.model.shape)
+        # comp = TSOM2_V.TSOM2_Viewer(y=self.model,
+        #                             winner1=self.bmu1,
+        #                             winner2=self.bmu2,
+        #                             label2=label2,
+        #                             button_label=label3)
+        # comp.draw_map()
 
     def ploof(self, sim_data):
 
