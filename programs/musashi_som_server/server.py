@@ -2,12 +2,13 @@
 import socket
 import socketserver
 import threading
+import struct
 
 
 class Server:
     def __init__(self,):
         print('create multi client server')
-        host = '127.0.0.1'
+        host = '172.16.44.101'
         port= 7000
         self.info = (host,port)
         print('server info:{}'.format(self.info))
@@ -35,8 +36,9 @@ class Server:
             try:
                 conn,addr = self.sock.accept()
                 self.clients.append((conn, addr))
+                print("new client")
                 thread = threading.Thread(target=self.proccess,
-                                          args=(conn,addr))
+                                          args=(conn, addr))
                 thread.setDaemon(True)
                 thread.start()
                 # self.threads.append(thread)
@@ -44,25 +46,16 @@ class Server:
             except socket.timeout:
                 if len(self.clients)==0:
                     print('wait client ... {}'.format(len(self.clients)))
+
+                else:
+                    print('client num:{}'.format(len(self.clients)))
                 continue
         
     def proccess(self, connection:socket.socket, address):
-        while True:
-            try:
-                data = connection.recv(1024) #recieve
-                # print(data,len(data))
-                if len(data)==0:
-                    break;
-            except Exception as ex:
-                print(ex)
-                break
-        
-        connection.close()
-        return
+        pass
     
     def close(self,):
         self.sock.close()
-        
         
 # class TCPHandler(socketserver.BaseRequestHandler):   
 #     def setup(self,):

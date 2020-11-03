@@ -1,8 +1,9 @@
 {
-    "mode1_model":"data/k_star1.csv", 
+    "mode1_model":"data/k_star1.csv",
     "mode2_model":"data/k_star2.csv",
     "som_model":"data/y.csv",
     "label1":"data/Label_3600.txt",
     "label2":"data/Label_7.txt",
     "label3":"data/Label_3.txt"
+
 }
